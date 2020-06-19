@@ -1,0 +1,77 @@
+#slider {
+  width: 800px;
+  margin: 50px auto;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  border: none;
+
+
+  span {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    outline: none;
+    &:hover {
+      background-color: red;
+      outline: none ;
+    }
+    &:active {
+      background-color: blue;
+      outline: none;
+    }
+  }
+}
+
+p {
+  margin: 50px auto;
+}
+
+#ui-datepicker-div {
+  .ui-datepicker-header.ui-widget-header {
+    background-color: #2b2b2b;
+    .ui-icon {
+      background-color: #fff;
+    }
+    .ui-datepicker-title {
+      color: #fff;
+    }
+  }
+  .ui-datepicker-calendar {
+    .ui-state-default {
+      background: #fff;
+      border: none;
+      &:hover {
+        color: #ddd;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+#sortable li span { position: absolute; margin-left: -1.3em; }
+
+#sortable {
+  margin: 50px auto;
+  width: 500px;
+  .ui-state-default {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 4px;
+    background-color: #2b2b2b;
+    h4 {
+      margin-top: 6px;
+      color: #fff;
+    }
+
+
+    span {
+      margin-top: 1px;
+      background-color: #fff;
+
+    }
+  }
+}
